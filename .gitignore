@@ -8,21 +8,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+# 虚拟环境
+/venv
   
 # PyInstaller
 # Usually these files are written by a python script from a template
@@ -30,9 +17,6 @@ var/
 *.manifest
 *.spec
   
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
   
 # Unit test / coverage reports
 htmlcov/
